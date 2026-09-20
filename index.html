@@ -1,104 +1,63 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>بطاقة استكمال ميداني — مبنى 462425</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
-:root{--teal:#0f766e;--teal-dark:#134e4a;--teal-ink:#042f2e;--gold:#d97706;--gold-soft:#fffbeb;--red:#b91c1c;--red-soft:#fee2e2;--green:#047857;--green-soft:#d1fae5;--amber:#b45309;--amber-soft:#fef3c7;--ink:#1e293b;--muted:#64748b;--line:#e2e8f0;--bg:#f4f7f6;--paper:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif;background:radial-gradient(1000px 420px at 100% -8%,#ccfbf1 0,transparent 55%),radial-gradient(800px 360px at 0 12%,#fef3c7 0,transparent 50%),var(--bg);color:var(--ink);line-height:1.7}
-a{color:inherit}.wrap{width:min(1080px,calc(100% - 28px));margin-inline:auto}
-header.nav{position:sticky;top:0;z-index:50;background:rgba(4,47,46,.94);border-bottom:3px solid var(--gold)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;min-height:70px;gap:12px}
-.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}
-.badge{background:#021c1b;border:1px solid #115e59;border-radius:12px;padding:6px 12px;text-align:center;min-width:92px}
-.badge small{display:block;font-size:11px;color:#fde68a}.badge b{font-size:20px;color:#fff}
-.brand h1{margin:0;font-size:16px}.brand p{margin:0;font-size:12px;color:#fde68a}
-.btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;text-decoration:none;border-radius:999px;padding:9px 15px;font-weight:600;font-size:13px;font-family:inherit}
-.btn-gold{background:var(--gold);color:#fff}.btn-ghost{background:transparent;color:#fff;border:1px solid #5eead4}.btn-teal{background:var(--teal);color:#fff}
-.hero{padding:42px 0 18px}.kicker{display:inline-flex;background:#fff;border:1px solid var(--line);color:var(--teal-dark);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600}
-.hero h2{font-size:clamp(26px,5vw,44px);line-height:1.25;margin:12px 0 8px;color:var(--teal-ink)}
-.lead{font-size:17px;color:var(--muted);max-width:48ch;margin:0}
-.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}
-.chip{color:#fff;border-radius:16px;padding:14px 10px;text-align:center}.chip b{display:block;font-size:26px}
-.c-green{background:var(--green)}.c-red{background:var(--red)}.c-amber{background:var(--amber)}.c-teal{background:var(--teal-dark)}
-.grid-2{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}
-.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
-.card h3{margin:0 0 12px;font-size:19px;color:var(--teal-dark)}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:9px 7px;border-bottom:1px solid var(--line);text-align:right}th{background:var(--teal-dark);color:#fff}
-tr.bad td{background:var(--red-soft)}tr.ok td{background:#f0fdfa}
-.rule{margin-top:12px;background:var(--gold-soft);border:1px solid #fcd34d;border-radius:14px;padding:12px 14px;color:#92400e;font-weight:600}
-.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0 12px}
-.section-title h2{margin:0;font-size:24px;color:var(--teal-ink)}
-.progress{background:#e2e8f0;border-radius:999px;height:10px;overflow:hidden;margin:0 0 12px}
-.progress>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),#14b8a6)}
-.meter{font-size:13px;color:var(--muted);font-weight:600}
-.steps{display:grid;gap:8px}
-.step{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:11px 13px}
-.step.must{background:#fff7f7;border-color:#fecaca}.step.soft{background:#fffbeb;border-color:#fde68a}.step.done{background:#f0fdfa;border-color:#99f6e4}
-.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;background:var(--teal-dark)}
-.step.must .num{background:var(--red)}.step.soft .num{background:var(--amber)}
-.step h4{margin:0;font-size:15px}.step p{margin:2px 0 0;color:var(--muted);font-size:13px}.check{width:22px;height:22px}
-.kv{display:grid;grid-template-columns:1fr 1fr;gap:4px 18px}
-.kv div{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding:8px 0;font-size:14px}
-.kv dt{color:var(--muted)}.kv dd{margin:0;font-weight:700}
-.tag{font-size:12px;border-radius:999px;padding:2px 8px}
-.tag-ok{background:var(--green-soft);color:var(--green)}.tag-bad{background:var(--red-soft);color:var(--red)}.tag-warn{background:var(--amber-soft);color:var(--amber)}
-.notes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
-.note{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}
-.sign{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.sign label{display:block;font-size:13px;color:var(--muted);margin-bottom:4px}
-.sign input,.sign textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-family:inherit;font-size:14px}
-.sign textarea{min-height:72px;grid-column:1/-1}
-footer{margin-top:36px;background:var(--teal-ink);color:#ccfbf1;padding:22px 0;font-size:13px}
-@media(max-width:860px){.chips,.grid-2,.kv,.notes,.sign{grid-template-columns:1fr}}
-@media print{header.nav,footer{display:none!important}}
+:root{--teal:#0f766e;--ink:#042f2e;--gold:#d97706;--red:#b91c1c;--green:#047857;--amber:#b45309;--muted:#64748b;--line:#e2e8f0}
+*{box-sizing:border-box}body{margin:0;font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif;background:#f3f6f5;color:#1e293b;line-height:1.7}
+.wrap{width:min(1080px,calc(100% - 28px));margin:auto}.nav{position:sticky;top:0;background:#042f2e;border-bottom:3px solid var(--gold);color:#fff}
+.nav-in{display:flex;justify-content:space-between;align-items:center;min-height:70px;gap:10px}
+.badge{background:#021c1b;border:1px solid #134e4a;border-radius:12px;padding:6px 12px;text-align:center}.badge b{display:block;font-size:20px}
+.btn{border:0;border-radius:999px;padding:8px 14px;font:600 13px inherit;color:#fff;background:var(--gold);cursor:pointer;text-decoration:none}
+.hero{padding:40px 0 16px}h2{font-size:clamp(26px,5vw,44px);color:var(--ink);margin:10px 0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0}
+.stat{color:#fff;border-radius:16px;padding:14px;text-align:center}.stat b{display:block;font-size:26px}
+.s1{background:var(--green)}.s2{background:var(--red)}.s3{background:var(--amber)}.s4{background:var(--ink)}
+.two{display:grid;grid-template-columns:1.2fr .8fr;gap:12px}.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px;text-align:right;border-bottom:1px solid var(--line)}th{background:var(--ink);color:#fff}
+.ok td{background:#f0fdfa}.bad td{background:#fee2e2}.warn{margin-top:10px;background:#fffbeb;padding:10px;border-radius:12px;color:#92400e;font-weight:600}
+.bar{height:10px;background:#e2e8f0;border-radius:99px;overflow:hidden;margin:8px 0 12px}.bar>i{display:block;height:100%;width:0;background:#0f766e}
+.row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:10px;margin:6px 0;background:#fff}
+.row.m{background:#fff7f7}.row.d{background:#f0fdfa}.n{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font-weight:700}
+.kv>div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:7px 0}
+.tag{border-radius:99px;padding:2px 8px;font-size:12px}.tg{background:#d1fae5;color:#047857}.tr{background:#fee2e2;color:#b91c1c}
+.sign input,.sign textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;font:14px inherit;margin:4px 0 10px}
+footer{background:var(--ink);color:#ccfbf1;padding:16px;margin-top:24px;text-align:center}
+@media(max-width:800px){.stats,.two{grid-template-columns:1fr}}
 </style></head><body>
-<header class="nav"><div class="wrap nav-inner">
-<a class="brand" href="#top"><div class="badge"><small>رقم المبنى</small><b>462425</b></div><div><h1>بطاقة استكمال ميداني</h1><p>9 أيلول 2026 · نتاشا اولغا</p></div></a>
-<div class="nav-actions"><a class="btn btn-ghost" href="#steps">مسار العمل</a><button class="btn btn-gold" type="button" onclick="window.print()">طباعة</button></div>
-</div></header>
-<main>
-<section class="hero"><div class="wrap">
-<span class="kicker">Runtime Tablet</span>
-<h2>السجل الخامس ناقص.<br>باقي الأسرة مكتملة.</h2>
-<p class="lead">علّم الخطوات، كمّل ملف نتاشا، وما تنتقل لمبنى ثاني إلا بعد اختفاء علامة التعجب.</p>
-<div class="chips"><div class="chip c-green"><b>4</b><span>مكتمل</span></div><div class="chip c-red"><b>1</b><span>ناقص</span></div><div class="chip c-amber"><b>3</b><span>تبويبات</span></div><div class="chip c-teal"><b>1</b><span>عمالة</span></div></div>
-<div class="grid-2"><article class="card"><h3>ملخص الأسرة</h3>
+<header class="nav"><div class="wrap nav-in"><div class="badge"><small>رقم المبنى</small><b>462425</b></div><div><b>بطاقة استكمال ميداني</b></div><button class="btn" onclick="print()">طباعة</button></div></header>
+<main class="wrap">
+<section class="hero"><h2>السجل الخامس ناقص.<br>باقي الأسرة مكتملة.</h2>
+<div class="stats"><div class="stat s1"><b>4</b>مكتمل</div><div class="stat s2"><b>1</b>ناقص</div><div class="stat s3"><b>3</b>تبويبات</div><div class="stat s4"><b>1</b>عمالة</div></div>
+<div class="two"><article class="card"><h3>ملخص الأسرة</h3>
 <table><thead><tr><th>م</th><th>اسم الجد</th><th>العائلة</th><th>العلاقة</th><th>الحالة</th></tr></thead><tbody>
 <tr class="ok"><td>1</td><td>سعيد</td><td>احمد</td><td>رب الأسرة</td><td>مكتمل</td></tr>
-<tr class="ok"><td>2</td><td>عدنان</td><td>راضية</td><td>زوج / زوجة</td><td>مكتمل</td></tr>
-<tr class="ok"><td>3</td><td>محمد</td><td>حبوب</td><td>أقارب آخرون</td><td>مكتمل</td></tr>
-<tr class="ok"><td>4</td><td>محمد</td><td>حبوب</td><td>أقارب آخرون</td><td>مكتمل</td></tr>
+<tr class="ok"><td>2</td><td>عدنان</td><td>راضية</td><td>زوج/زوجة</td><td>مكتمل</td></tr>
+<tr class="ok"><td>3</td><td>محمد</td><td>حبوب</td><td>أقارب</td><td>مكتمل</td></tr>
+<tr class="ok"><td>4</td><td>محمد</td><td>حبوب</td><td>أقارب</td><td>مكتمل</td></tr>
 <tr class="bad"><td>5</td><td>نتاشا</td><td>اولغا</td><td>عمالة منزلية</td><td>ناقص</td></tr>
-</tbody></table>
-<div class="rule">السجلان 3 و 4 بنفس الاسم. تحقق قبل الإغلاق.</div></article>
-<aside class="card"><h3>قاعدة الإغلاق</h3><p>ما تنتقل لمبنى ثاني إلا بعد اختفاء علامة التعجب عند نتاشا اولغا.</p><a class="btn btn-teal" href="#person">ملف الفرد</a></aside></div>
-</div></section>
-<section id="steps"><div class="wrap"><div class="section-title"><h2>ورقة التأشير</h2><span class="meter" id="meter">0 من 9</span></div><div class="progress"><span id="bar"></span></div><div class="steps" id="checklist"></div></div></section>
-<section id="person"><div class="wrap"><div class="section-title"><h2>ملف نتاشا اولغا</h2></div>
-<div class="card"><p>غير أردنية من بوتان. مسيحية. قدوم 2025 للعمل. إقامة أقل من سنة. العمر 38.</p>
+</tbody></table><div class="warn">السجلان 3 و 4 بنفس الاسم — تحقق قبل الإغلاق.</div></article>
+<aside class="card"><h3>قاعدة الإغلاق</h3><p>ما تنتقل لمبنى ثاني إلا بعد اختفاء علامة نتاشا اولغا.</p></aside></div></section>
+<section><h3>ورقة التأشير <span id="meter">0 من 9</span></h3><div class="bar"><i id="bar"></i></div><div id="checklist"></div></section>
+<section class="card"><h3>ملف نتاشا اولغا</h3>
+<p>بوتان · مسيحية · قدوم 2025 للعمل · العمر 38</p>
 <div class="kv">
-<div><dt>الميلاد</dt><dd>نيسان 1988 <span class="tag tag-ok">مكتمل</span></dd></div>
-<div><dt>الجنسية</dt><dd>بوتان <span class="tag tag-ok">مكتمل</span></dd></div>
-<div><dt>دولة الإقامة السابقة</dt><dd>فارغ <span class="tag tag-bad">إجباري</span></dd></div>
-<div><dt>التعليم / الزواج / العمل</dt><dd>غير محدد <span class="tag tag-bad">يوقف الحفظ</span></dd></div>
-</div></div>
-<div class="notes"><div class="note"><h4>أخطر نقص</h4><p>عبّ دولة الإقامة السابقة حتى يفتح الحفظ.</p></div><div class="note"><h4>العمل</h4><p>بعد نعم تعمل، ثبّت المهنة كعمالة منزلية.</p></div></div>
+<div><dt>دولة الإقامة السابقة</dt><dd>فارغ <span class="tag tr">إجباري</span></dd></div>
+<div><dt>التعليم / الزواج / العمل</dt><dd>غير محدد <span class="tag tr">يوقف الحفظ</span></dd></div>
+<div><dt>الجنسية</dt><dd>بوتان <span class="tag tg">مكتمل</span></dd></div>
 </div></section>
-<section id="sign"><div class="wrap"><div class="section-title"><h2>توقيع الباحث</h2></div>
-<div class="card sign"><div><label>اسم الباحث</label><input id="nm"></div><div><label>المنطقة</label><input id="ar"></div><div><label>التاريخ</label><input id="dt"></div><div><label>التوقيع</label><input id="sg"></div><textarea id="nt" placeholder="ملاحظة"></textarea></div>
-</div></section>
-</main>
-<footer><div class="wrap">مبنى 462425 · استخدام داخلي</div></footer>
+<section class="card sign"><h3>توقيع الباحث</h3>
+<label>الاسم</label><input id="nm"><label>المنطقة</label><input id="ar"><label>ملاحظة</label><textarea id="nt"></textarea>
+</section>
+</main><footer>مبنى 462425 · استخدام داخلي</footer>
 <script>
-const STEPS=[["must","دولة الإقامة السابقة","المقترح: بوتان"],["must","الالتحاق التعليمي","حسب إفادتها"],["must","الحالة الزواجية","حسب إفادتها"],["must","هل تعمل حالياً","نعم ثم عمالة منزلية"],["must","الصعوبات الوظيفية","افتح التبويب"],["soft","الرقم الشخصي","إن توفر"],["soft","اسم الأم","إن توفر"],["soft","السجلان محمد حبوب","شخصان أم تكرار"],["ok","حفظ والعودة","تختفي علامة التعجب"]];
-const box=document.getElementById("checklist"); const saved=JSON.parse(localStorage.getItem("b462425")||"{}");
-function paint(){const n=STEPS.filter((_,i)=>saved["s"+i]).length;document.getElementById("meter").textContent=n+" من 9";document.getElementById("bar").style.width=(n/9*100)+"%";}
-STEPS.forEach((s,i)=>{const id="s"+i;const el=document.createElement("label");el.className="step "+s[0]+(saved[id]?" done":"");el.innerHTML='<span class="num">'+(i+1)+'</span><span><h4>'+s[1]+'</h4><p>'+s[2]+'</p></span><input class="check" type="checkbox" id="'+id+'"'+(saved[id]?" checked":"")+">";box.appendChild(el);});
-box.addEventListener("change",e=>{if(e.target.type!=="checkbox")return;saved[e.target.id]=e.target.checked;localStorage.setItem("b462425",JSON.stringify(saved));e.target.closest(".step").classList.toggle("done",e.target.checked);paint();});
-paint();
-["nm","ar","dt","sg","nt"].forEach(id=>{const el=document.getElementById(id);const key="b462425_"+id;el.value=localStorage.getItem(key)||"";el.addEventListener("input",()=>localStorage.setItem(key,el.value));});
+const STEPS=[["m","دولة الإقامة السابقة","بوتان"],["m","الالتحاق التعليمي",""],["m","الحالة الزواجية",""],["m","هل تعمل حالياً","نعم ثم عمالة منزلية"],["m","الصعوبات الوظيفية",""],["","الرقم الشخصي",""],["","اسم الأم",""],["","السجلان محمد حبوب",""],["","حفظ والعودة",""]];
+const box=document.getElementById("checklist"), saved=JSON.parse(localStorage.getItem("b462425")||"{}");
+function paint(){const n=STEPS.filter((_,i)=>saved["s"+i]).length;meter.textContent=n+" من 9";bar.style.width=(n/9*100)+"%";}
+STEPS.forEach((s,i)=>{const id="s"+i,el=document.createElement("label");el.className="row "+(s[0]||"")+(saved[id]?" d":"");el.innerHTML='<span class="n">'+(i+1)+'</span><span><b>'+s[1]+'</b></span><input type=checkbox id='+id+(saved[id]?" checked":"")+">";box.appendChild(el);});
+box.onchange=e=>{if(e.target.type!=="checkbox")return;saved[e.target.id]=e.target.checked;localStorage.setItem("b462425",JSON.stringify(saved));e.target.closest(".row").classList.toggle("d",e.target.checked);paint();};paint();
+["nm","ar","nt"].forEach(id=>{const el=document.getElementById(id);el.value=localStorage.getItem("b462425_"+id)||"";el.oninput=()=>localStorage.setItem("b462425_"+id,el.value);});
 </script></body></html>
